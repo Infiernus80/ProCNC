@@ -110,7 +110,6 @@ try {
 
         // Username to use for SMTP authentication
         $mail->Username = $formConfig['username'];
-
         // Password to use for SMTP authentication
         $mail->Password = $formConfig['password'];
     }
