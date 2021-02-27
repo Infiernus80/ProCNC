@@ -5722,7 +5722,7 @@ html:not(.lt-ie10) .not-animated {
 /** @section ToTop */
 .ui-to-top {
 	position: fixed;
-	right: 15px;
+	left: 1100px;
 	bottom: 15px;
 	z-index: 100;
 	width: 60px;
@@ -5734,7 +5734,7 @@ html:not(.lt-ie10) .not-animated {
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
-	transition: .45s all ease-in-out;
+	transition: .40s all ease-in-out;
 	transform: translate3d(0, 100px, 0);
 }
 
@@ -11785,3 +11785,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .context-dark .countdown-circle-bg, .bg-gray-800 .countdown-circle-bg, .bg-primary .countdown-circle-bg {
 	fill: rgba(255, 255, 255, 0.1);
 }
+
+/* Boot a la izquierda */
+
